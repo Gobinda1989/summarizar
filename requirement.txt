@@ -1,0 +1,4 @@
+pandas
+gensim==3.7.3
+nltk
+networkx==2.4

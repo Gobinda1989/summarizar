@@ -1,0 +1,18 @@
+Text Extractor:
+
+step 1:
+create dataset: Dataset needs to be created reading the folder and we get list of the text
+
+step 2:
+clean data: clean the text and using sentence tokenizer convert it list of sentences
+
+step3:
+Sentence Embedding: apply word embedding for word tokens the sentences. Here word2Vec is used.
+
+step 4:
+similiarity matrix generation: Initialize similarity_matrix of dimension N x N where N is the total number of sentences in the text. Using 1-spatial.distance.cosine(), calculate the similarity between every two pairs of sentences.
+PageRank is applied
+
+step 5:
+Top 4 sentences are popped out and output is stored in csv
+

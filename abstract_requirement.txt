@@ -1,0 +1,4 @@
+tensorflow
+nltk
+pandas
+bs4

@@ -1,0 +1,9 @@
+step1: create dataset reading the files in the text diroctory
+step2: We split the document based on the keword "@highlight for train data. Now we got list of features and labels
+step3: clean the feature text and label text
+step4:using keras Tokenizer the sentences are tokenized and padding is done so that the length become constant
+step5:we use 3 encoder layer using LSTM and a decoder layer. We can use attention mechanism for this
+step6: Model is compiled and fit using training data
+step7: For Testing we need to instantiate the encoder-decoder model. We need to set the training parameter(like dimension,max len etc)
+
+Note: We need a high configuration machine for the training else it will be crashed  
